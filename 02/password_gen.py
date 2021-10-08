@@ -26,3 +26,4 @@ def get_random_pwd(length, use_digit, use_punctuation):
 
 if __name__ == "__main__":
     print(f"generated password: {get_random_pwd(6, True, True)}")
+

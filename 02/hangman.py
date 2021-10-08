@@ -79,3 +79,4 @@ if __name__ == "__main__":
         else:
             handle_final_guess(text, word)
     lost()
+
