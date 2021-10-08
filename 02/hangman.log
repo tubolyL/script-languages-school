@@ -1,4 +1,4 @@
 DEBUG:root:Debug
 INFO:root:Info
 WARNING:root:Warning
-
+ERROR:root:ERROR
