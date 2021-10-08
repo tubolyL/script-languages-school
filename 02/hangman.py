@@ -56,6 +56,7 @@ if __name__ == "__main__":
     LOGGER.debug('Debug')
     LOGGER.info('Info')
     LOGGER.warning('Warning')
+    LOGGER.error('ERROR')
 
     MAX_GUESS = 3
     print(f"Hangman Application{MAX_GUESS}")
