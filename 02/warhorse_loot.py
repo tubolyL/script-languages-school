@@ -14,8 +14,9 @@ def week_sequence(no_of_weeks: int) -> bool:
 
 
 if __name__ == "__main__":
-    for sequence_length in range(1, 12):
-        loot_count = 0
+
+    loot_count = 0
+    for sequence_length in range(1, 13):
         for _ in range(NO_SIMULATIONS):
             if week_sequence(sequence_length):
                 loot_count += 1
